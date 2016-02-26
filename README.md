@@ -36,10 +36,11 @@ window.addEventListener('click', () => {
 
 ## メモ
 
-- Android の Chrome Dev が一番実装が進んでいる。 参考: [Implementation Status](https://github.com/WebBluetoothCG/web-bluetooth/blob/gh-pages/implementation-status.md)
-- notify がまだ使えないので値がちゃんと取れない。
+- Chrome Book の実装が一番進んでいるっぽい。 参考: [Implementation Status](https://github.com/WebBluetoothCG/web-bluetooth/blob/gh-pages/implementation-status.md)
+- Android では notify がまだ使えないので値がちゃんと取れない。
 - Android 上では Bluetooth の他に位置情報も ON にしないといけない。
 - Mac Chrome ではペアリング可能だが characteristic がちゃんと取れない?
+- BLE 関連処理のクロスプラットフォーム化をするための土台になる事を期待。
 
 
 ## 参考
